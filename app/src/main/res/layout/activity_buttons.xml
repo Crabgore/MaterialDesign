@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/flat"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="flat"/>
+
+        <Button
+            android:id="@+id/bordered"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bordered"/>
+
+        <Button
+            android:id="@+id/raised"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="raised"/>
+
+        <Button
+            android:id="@+id/raisedColored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="raised colored"
+            android:backgroundTint="@color/design_default_color_primary"/>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_menu_manage"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
