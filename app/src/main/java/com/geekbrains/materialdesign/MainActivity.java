@@ -2,6 +2,7 @@ package com.geekbrains.materialdesign;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -34,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
         });
         findViewById(R.id.toolbar).setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, ToolbarActivity.class);
+            start(intent);
+        });
+        findViewById(R.id.navigationDrawer).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, NavigationDrawerActivity.class);
+            start(intent);
+        });
+        findViewById(R.id.progressBar).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ProgressBarActivity.class);
             start(intent);
         });
     }
