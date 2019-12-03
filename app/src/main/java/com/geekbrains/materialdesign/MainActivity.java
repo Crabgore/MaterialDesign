@@ -2,26 +2,9 @@ package com.geekbrains.materialdesign;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
-import android.telephony.mbms.MbmsErrors;
-import android.view.View;
-
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
-import com.google.android.material.navigation.NavigationView;
-
-import androidx.drawerlayout.widget.DrawerLayout;
+import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
-import android.view.Menu;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,6 +27,22 @@ public class MainActivity extends AppCompatActivity {
         });
         findViewById(R.id.bottom_sheet).setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, BottomActivity.class);
+            start(intent);
+        });
+        findViewById(R.id.buttons).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ButtonsActivity.class);
+            start(intent);
+        });
+        findViewById(R.id.toolbar).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ToolbarActivity.class);
+            start(intent);
+        });
+        findViewById(R.id.navigationDrawer).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, NavigationDrawerActivity.class);
+            start(intent);
+        });
+        findViewById(R.id.progressBar).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ProgressBarActivity.class);
             start(intent);
         });
     }

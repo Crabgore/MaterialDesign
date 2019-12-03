@@ -17,4 +17,5 @@
     <string name="lower_bottom_sheet_text">lower bottom sheet text</string>
     <string name="show_hide_bottom_sheet">Show/hide bottom sheet</string>
     <string name="make_snack">Make Snack</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
 </resources>
