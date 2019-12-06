@@ -45,6 +45,14 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, ProgressBarActivity.class);
             start(intent);
         });
+        findViewById(R.id.collapsing).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, CollapsingActivity.class);
+            start(intent);
+        });
+        findViewById(R.id.fab).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, FabActivity.class);
+            start(intent);
+        });
     }
 
     private void start (Intent intent) {

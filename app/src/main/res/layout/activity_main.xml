@@ -47,4 +47,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Progress Bar"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/collapsing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Collapsing Activity"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fab Activity"/>
 </LinearLayout>
