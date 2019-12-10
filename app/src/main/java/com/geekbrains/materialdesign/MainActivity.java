@@ -53,6 +53,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, FabActivity.class);
             start(intent);
         });
+        findViewById(R.id.recycler).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, RecyclerActivity.class);
+            start(intent);
+        });
     }
 
     private void start (Intent intent) {
