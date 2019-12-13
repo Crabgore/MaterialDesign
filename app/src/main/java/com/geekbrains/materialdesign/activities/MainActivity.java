@@ -1,10 +1,12 @@
-package com.geekbrains.materialdesign;
+package com.geekbrains.materialdesign.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.geekbrains.materialdesign.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -55,6 +57,14 @@ public class MainActivity extends AppCompatActivity {
         });
         findViewById(R.id.recycler).setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, RecyclerActivity.class);
+            start(intent);
+        });
+        findViewById(R.id.tabs).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, TabsActivity.class);
+            start(intent);
+        });
+        findViewById(R.id.bna).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, BottomNavigationActivity.class);
             start(intent);
         });
     }

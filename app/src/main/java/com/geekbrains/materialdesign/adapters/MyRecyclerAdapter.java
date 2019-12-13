@@ -1,4 +1,4 @@
-package com.geekbrains.materialdesign;
+package com.geekbrains.materialdesign.adapters;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -11,14 +11,16 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.geekbrains.materialdesign.R;
+
 import java.util.List;
 
-public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
+public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.ViewHolder> {
     private List<String> list;
     private List<Drawable> drawables;
     private Context context;
 
-    MyAdapter(Context context, List<String> list, List<Drawable> drawables) {
+    public MyRecyclerAdapter(Context context, List<String> list, List<Drawable> drawables) {
         this.context = context;
         this.list = list;
         this.drawables = drawables;
@@ -28,7 +30,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_view, parent, false);
-        return new MyAdapter.ViewHolder(v);
+        return new MyRecyclerAdapter.ViewHolder(v);
     }
 
     @Override

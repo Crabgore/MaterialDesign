@@ -1,14 +1,16 @@
-package com.geekbrains.materialdesign;
+package com.geekbrains.materialdesign.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class TextActivity extends AppCompatActivity {
+import com.geekbrains.materialdesign.R;
+
+public class FabActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_text);
+        setContentView(R.layout.activity_fab);
     }
 }

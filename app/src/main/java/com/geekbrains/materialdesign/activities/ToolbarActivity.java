@@ -1,4 +1,4 @@
-package com.geekbrains.materialdesign;
+package com.geekbrains.materialdesign.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,6 +7,8 @@ import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
+
+import com.geekbrains.materialdesign.R;
 
 import java.util.Objects;
 

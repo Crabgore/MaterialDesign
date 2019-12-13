@@ -65,4 +65,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Recycler Activity"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tabs Activity"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bottom Navigation Activity"/>
 </LinearLayout>

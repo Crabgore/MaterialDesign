@@ -1,4 +1,4 @@
-package com.geekbrains.materialdesign;
+package com.geekbrains.materialdesign.activities;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -6,6 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.geekbrains.materialdesign.R;
 import com.google.android.material.snackbar.Snackbar;
 
 public class ButtonsActivity extends AppCompatActivity {

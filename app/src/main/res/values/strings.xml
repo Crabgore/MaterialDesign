@@ -19,6 +19,8 @@
     <string name="make_snack">Make Snack</string>
     <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
     <string name="title_activity_collapsing">Collapsing Activity</string>
+    <string name="title_activity_tabs">Tabs Activity</string>
+    <string name="title_activity_bnv">Bottom Navigation Activity</string>
 
     <string name="long_text">
         — Хочешь свой кораблик, Джорджи? — спросил Пеннивайз. — Я повторяю вопрос только потому, что он вроде бы не так уж тебе и нужен. — Он поднял кораблик выше, улыбаясь. Клоун был в мешковатом шелковом костюме с большими оранжевыми пуговицами, ярко-синем галстуке, больших белых перчатках, какие обычно носили Микки Маус и Дональд Дак.
@@ -44,4 +46,7 @@
 
 Глаза мальчика смотрели в белесое небо и уже начали наполняться дождем, когда Дэйв, пошатываясь, двинулся навстречу другим людям, бегущим по улице.
     </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

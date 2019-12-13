@@ -1,4 +1,4 @@
-package com.geekbrains.materialdesign;
+package com.geekbrains.materialdesign.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DividerItemDecoration;
@@ -7,6 +7,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+
+import com.geekbrains.materialdesign.adapters.MyRecyclerAdapter;
+import com.geekbrains.materialdesign.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,8 +48,8 @@ public class RecyclerActivity extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(layoutManager);
 
-        MyAdapter myAdapter = new MyAdapter(this, list, drawables);
-        recyclerView.setAdapter(myAdapter);
+        MyRecyclerAdapter myRecyclerAdapter = new MyRecyclerAdapter(this, list, drawables);
+        recyclerView.setAdapter(myRecyclerAdapter);
 
         DividerItemDecoration itemDecoration = new DividerItemDecoration(this,
                 LinearLayoutManager.VERTICAL);

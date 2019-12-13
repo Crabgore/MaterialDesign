@@ -1,10 +1,12 @@
-package com.geekbrains.materialdesign;
+package com.geekbrains.materialdesign.activities;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.geekbrains.materialdesign.R;
 
 public class ProgressBarActivity extends AppCompatActivity {
 
