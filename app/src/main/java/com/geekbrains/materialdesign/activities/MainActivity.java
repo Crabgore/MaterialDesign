@@ -6,7 +6,6 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.geekbrains.materialdesign.R;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -65,6 +64,14 @@ public class MainActivity extends AppCompatActivity {
         });
         findViewById(R.id.bna).setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, BottomNavigationActivity.class);
+            start(intent);
+        });
+        findViewById(R.id.style).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, StyleActivity.class);
+            start(intent);
+        });
+        findViewById(R.id.theme).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ThemeActivity.class);
             start(intent);
         });
     }

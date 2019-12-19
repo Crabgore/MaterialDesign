@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activities.ThemeActivity"
+            android:theme="@style/MyAppTheme"/>
+        <activity android:name=".activities.StyleActivity" />
+        <activity
             android:name=".activities.BottomNavigationActivity"
             android:label="@string/title_activity_bnv"
             android:theme="@style/AppTheme.NoActionBar" />
