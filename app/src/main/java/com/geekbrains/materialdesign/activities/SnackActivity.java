@@ -1,4 +1,4 @@
-package com.geekbrains.materialdesign;
+package com.geekbrains.materialdesign.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.geekbrains.materialdesign.R;
 import com.google.android.material.snackbar.Snackbar;
 
 public class SnackActivity extends AppCompatActivity {
