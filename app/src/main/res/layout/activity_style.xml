@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.StyleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:text="Button 1"
+            style="@style/MyButtonStyle" />
+
+        <Button
+            android:text="Button 2"
+            style="@style/MyButtonStyle" />
+
+        <Button
+            android:text="Button 3"
+            style="@style/MyButtonStyle" />
+
+        <Button
+            android:text="Button 4"
+            style="@style/MyButtonStyle" />
+
+        <Button
+            android:text="Button 5"
+            style="@style/MyButtonStyle" />
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

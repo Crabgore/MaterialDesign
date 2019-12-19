@@ -1,11 +1,11 @@
-package com.geekbrains.materialdesign;
+package com.geekbrains.materialdesign.activities;
+
+import android.os.Bundle;
+import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-import android.view.View;
-import android.widget.LinearLayout;
-
+import com.geekbrains.materialdesign.R;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
 public class BottomActivity extends AppCompatActivity {
